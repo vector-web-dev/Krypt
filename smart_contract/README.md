@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Krypt Crypto Dapp Porject
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+- This is a project where crypto can be sent from one account/wallet to another. It is authomatically set to connect to your default wallet, most likely metamask. It is a code along project from javascript mastery on youtube. 
 
-Try running some of the following tasks:
+- When the connect wallet button is clicked, it connects to your default wallet, to the account you choose. Please make sure you have suffient money in the account so you don't run into issues. 
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+- When you connect you can see the detail, such as the address, message, amount, gif which is taken as the information on sending the ether/money. Realoading the page after the sent transaction has been completed, you can see the data info at the footer of the page, displaying a gif related to the gif name you passed in.
+
+- It's a really brilliant project and i enjoyed building it. Thanks Javascript Mastery.
+
